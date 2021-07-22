@@ -10,7 +10,7 @@
 .Ruserdata
 
 # RStudio files ----
-.Rproj.user/
+.Rproj.user
 
 # R Environment Variables ----
 .Renviron
