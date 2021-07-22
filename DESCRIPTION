@@ -1,0 +1,27 @@
+Package: cleaner
+Type: Package
+Title: Automatically Detect Duplicated Bibliographic References
+Version: 0.0.1
+Authors@R: c(
+    person(given   = "Nicolas",
+           family  = "Casajus",
+           role    = c("aut", "cre"),
+           email   = "nicolas.casajus@fondationbiodiversite.fr",
+           comment = c(ORCID = "0000-0002-5537-5294")))
+Description: Automatically detects duplicated bibliographic references using 
+    the package 'revtools'. First reads BiBTeX file(s) and then adds an 
+    identifier to references: duplicated references will have the same 
+    identifier.
+URL: https://github.com/FRBCesab/cleaner
+BugReports: https://github.com/FRBCesab/cleaner/issues
+License: GPL (>= 2)
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
+Imports: 
+    devtools,
+    here,
+    rcompendium,
+    revtools,
+    writexl
