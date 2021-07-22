@@ -5,3 +5,5 @@
 ^analyses$
 ^LICENSE\.md$
 ^make\.R$
+^README\.Rmd$
+^README\.html$
